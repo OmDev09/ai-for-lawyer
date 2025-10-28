@@ -203,7 +203,7 @@ const VeritasLanding = () => {
             <div className="flex items-center gap-4">
               <Dialog>
                 <DialogTrigger asChild>
-                  <Button variant="outline" size="sm" className="hidden md:flex">
+                  <Button variant="outline" size="sm" className="hidden md:flex ">
                     Join Waitlist
                   </Button>
                 </DialogTrigger>
@@ -449,7 +449,7 @@ const VeritasLanding = () => {
                 <motion.div
                   animate={shouldReduceMotion ? {} : { y: [0, -8, 0] }}
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                  className="card-elevated bg-card/95 backdrop-blur-sm p-6 space-y-4"
+                  className="card-elevated bg-card/95 backdrop-blur-sm p-6 space-y-4 text-black"
                 >
                   <div className="flex items-center gap-3 pb-3 border-b border-border">
                     <div className="w-3 h-3 rounded-full bg-destructive" />
@@ -461,7 +461,7 @@ const VeritasLanding = () => {
                   <div className="space-y-3">
                     <div className="bg-muted/50 p-3 rounded-lg">
                       <div className="text-xs text-muted-foreground mb-1">Query</div>
-                      <div className="font-mono text-sm">dishonest breach of trust investment fraud</div>
+                      <div className="font-mono text-sm ">dishonest breach of trust investment fraud</div>
                     </div>
                     
                     <div className="bg-primary/5 p-3 rounded-lg border border-primary/20">
